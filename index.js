@@ -25,8 +25,13 @@ const findByYear = (year, player, source) => {
   return CBdata[source][yIndex][pIndex];
 };
 
+const getFact = (index) => {
+  return CBdata['fact'][index];
+};
+
 module.exports = {
   find,
   findHistory,
-  findByYear
+  findByYear,
+  getFact
 }

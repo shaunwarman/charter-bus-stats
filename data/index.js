@@ -249,6 +249,21 @@ module.exports = {
     ['1368.2', '1233', '1169.9', '1156.8', '1018.5', '1210.7', '1168', '1186.9', '1082.7', '1128.9', '1209.3', '1292.5', '1083.8', '1269.3'],
     ['1122.2', '1344.3', '1121.3', '1286.8', '1119.7', '1237.5', '1141.3', '1246.2', '1298', '1254.4', '1135.3', '1170.5', '1071.2', '1171.9'],
     ['1288.2', '1160.8', '1276.1', '1157.3', '1162.9', '1116.4', '1127.4', '1224.5', '1077', '1213.9', '1204.9', '1136.2', '1213.1', '1357.9']
+  ],
+  fact: [
+    'In 2016, the day after the birth of Christ, Cameron Vail won the Charter Bus Championship' +
+        'by point one. On this same day, Zach Jones was raped by Dez Bryant.',
+    'Horace Gibson loves nature so much that he once let the Charter Bus carry him and' +
+        'his mattress into the woods to spend the night',
+    '21% of the Charter Bus has had intercourse with Amanda Beck.',
+    'Zach Jones has three hundred thousand dollars in assets. So far, this has bought him zero championships.',
+    'Tony Mataya believes so strongly in gender equality that he tried out having a vagina for a weekend ' +
+        'in Mexico instead of joining the Charter Bus draft games.',
+    'Andrew Smith gets so excited to play soccer that it makes him vomit.',
+    'Aaron Casserly once almost killed a man for fooling around with his sister.',
+    'Aaron Casserly once slept in a strip club. Don’t tell anyone though. It’s a secret.',
+    'Statistically speaking, you have a greater chance of being hit by a bus than a football thrown by Andrew Smith.'
   ]
+
 
 };
