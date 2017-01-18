@@ -1,6 +1,6 @@
 {
   "name": "charter-bus-stats",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple reference to some historical charter bus stats",
   "main": "index.js",
   "dependencies": {},
