@@ -16,20 +16,20 @@ module.exports = {
     ['1-4', '4-1', '2-3', '1-4', '3-2', '1-4', '2-3', '3-2', '2-3', '2-3', '4-1', '4-1', '2-3', '-']
   ],
   players: [
-    'Ben',
-    'Derek',
-    'Drew',
-    'Andrew',
-    'Aaron',
-    'Cameron',
-    'Tony',
-    'Ty',
-    'Shaun',
-    'Jake',
-    'Horace',
-    'Tyler',
-    'Dylan',
-    'Zach'
+    'ben',
+    'derek',
+    'drew',
+    'andrew',
+    'aaron',
+    'cameron',
+    'tony',
+    'ty',
+    'shaun',
+    'jake',
+    'horace',
+    'tyler',
+    'dylan',
+    'zach'
   ],
   totalRecord: [
     '44-34',
@@ -79,7 +79,7 @@ module.exports = {
     '7116.4',
     '5830'
   ],
-  avgPointsForPerYear: [
+  avgPointsForByYear: [
     '1245.73',
     '1145.70',
     '1138.80',
@@ -95,7 +95,7 @@ module.exports = {
     '1186.07',
     '1166.00'
   ],
-  avgPointsForPerWeek: [
+  avgPointsForByWeek: [
     '95.83',
     '88.13',
     '87.60',
@@ -111,7 +111,7 @@ module.exports = {
     '91.24',
     '89.69'
   ],
-  avgPointsAgainstPerYear: [
+  avgPointsAgainstByYear: [
     '1194.32',
     '1181.70',
     '1137.12',
@@ -127,7 +127,7 @@ module.exports = {
     '1124.12',
     '1221.98'
   ],
-  avgPointsAgainstPerWeek: [
+  avgPointsAgainstByWeek: [
     '91.87',
     '90.90',
     '87.47',
