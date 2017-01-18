@@ -33,5 +33,5 @@ module.exports = {
   find,
   findHistory,
   findByYear,
-  getFact
+  getFacts
 }
