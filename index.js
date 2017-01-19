@@ -1,25 +1,29 @@
 const CBdata = require('./data');
 
+const clean = (player) => {
+  return player.replace('\'s', '').toLowerCase()
+}
+
 const playerIndex = (player) => {
-  return CBdata['players'].indexOf(player.toLowerCase());
+  return CBdata['players'].indexOf(clean(player));
 };
 
 const find = (player, source) => {
-  const index = playerIndex(player.toLowerCase());
+  const index = playerIndex(clean(player));
 
   return CBdata[source][index];
 };
 
 const findHistory = (player, opponent) => {
-  const pIndex = playerIndex(player.toLowerCase());
-  const oIndex = playerIndex(opponent.toLowerCase());
+  const pIndex = playerIndex(clean(player));
+  const oIndex = playerIndex(clean(opponent));
 
   return CBdata['matchupHistory'][pIndex][oIndex];
 };
 
 const findByYear = (year, player, source) => {
   const yIndex = year % 2010;
-  const pIndex = playerIndex(player.toLowerCase());
+  const pIndex = playerIndex(clean(player));
 
   return CBdata[source][yIndex][pIndex];
 };
